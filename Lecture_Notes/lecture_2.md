@@ -192,6 +192,8 @@ module top(
 endmodule
 ```
 
+Note that you could actually define this in any order! You're just describing hardware, so it doesn't matter.
+
 
 
 
