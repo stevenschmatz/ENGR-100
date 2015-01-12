@@ -43,4 +43,6 @@ So... why does this go from big to small? Because "I like it that way."
 Endian-ness: Do we go from big to small or small to big?
 * A reference from Gulliver's travels, and it's completely arbitrary.
 
+Register: A place to store a bit.
+
 
