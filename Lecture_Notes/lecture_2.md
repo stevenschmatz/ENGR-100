@@ -34,7 +34,8 @@ Digital circuits work by representing a high voltage as a 1, and a low voltage a
 
 Digital circuits manipulate bits. We can do this with AND, OR, etc. gates to compute values. Other things you can do with bits are:
 * Group them. Note: A "word" is a group of bits of standard length.
-* Move them. This is done over a wire.
+* Move them. This is done over a wire. An array of wires is a bus (see below).
+* Store them, in *registers.*
 
 ### Buses
 
