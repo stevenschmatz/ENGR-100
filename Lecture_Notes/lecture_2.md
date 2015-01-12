@@ -91,6 +91,8 @@ module NOT(
 endmodule
 ```
 
+##### Numbers in Verilog
+
 * When describing a number, the first number describes how many bits the number is. 
 * The tick tells that you're done describing that.
 * The letter is the base of the number.
