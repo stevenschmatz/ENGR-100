@@ -151,7 +151,7 @@ Instead, you could list out a bunch of `if`-statements covering all possible cas
 
 ## Another Example
 
-This is meant to compute \\(A * B + C *D\\):
+This is meant to compute \\(A * B + C *)\\:
 
 
 
