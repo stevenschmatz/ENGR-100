@@ -144,4 +144,12 @@ endmodule
 
 Instead, you could list out a bunch of `if`-statements covering all possible cases. That would give the exact same answer. This is just a simplified version.
 
+## Review
+* **Combinatorial logic**: Logic with no memory. There is no stored information.
+* **Register**: A place that stores information
+* **Bus**: A group of wires.
+
+
+
+
 
