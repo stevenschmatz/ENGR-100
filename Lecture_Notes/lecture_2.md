@@ -18,7 +18,7 @@ Binary numbers can be unsigned or signed. Without prior knowledge of the signedn
 
 For example, 1100 could either be 12, if unsigned, or -4, if signed.
 
-Note that with a signed number, you cannot express a number higher than \\(2^{b} - 1\\), where \\(b\\) is the number of bits of the number. Hence, you can't express a 4-bit signed number higher than 8.
+Note that with a signed number, you cannot express a number higher than \\(2^{b-1} - 1\\), where \\(b\\) is the number of bits of the number. Hence, you can't express a 4-bit signed number higher than 8.
 
 ### Truth tables
 
