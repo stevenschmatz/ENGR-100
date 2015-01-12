@@ -78,5 +78,16 @@ module NOT(
     output reg B);
     
     always @* begin
+        case (A)
+            1'b0: begin
+                B = 1'b1;
+            end
+            
+            1'b1: begin
+                B = 1'b0;
+            end
+        endcase
+    end
+endmodule
 ```
 
