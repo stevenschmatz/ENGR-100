@@ -116,7 +116,7 @@ It's syntactic annoyance, but it is what it is. There's no deep knowledge behind
 
 Verilog is suboptimal for simple gates, but greatly simplifies creation of large truth tables (an 8-input module would otherwise have 256 cases)!
 
-##### Some more symbols
+#### Some more symbols
 Familiar symbols:
 * `&&` is AND
 * `||` is OR
