@@ -12,7 +12,11 @@ Definition of computer engineering:
 > * Embedded Systems
 > * System Software
 
-###Truth tables
+### Binary recap
+
+Binary numbers can be unsigned or signed. Without prior knowledge of the signedness of the number, you can have no idea what the number actually is.
+
+### Truth tables
 
 When a small number of outputs, it is a very powerful and useful tool. However, the number of rows increases exponentially:
 
