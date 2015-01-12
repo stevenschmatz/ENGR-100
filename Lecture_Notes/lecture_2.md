@@ -82,11 +82,11 @@ module NOT(
     always @* begin // constantly re-evaluate – combinatorial logic
         case (A)
             1'b0: begin // begin is same as {
-                B = 1'b1;
+                B = 1'b1; // 1 in binary
             end // and end is same as }
             
             1'b1: begin
-                B = 1'b0;
+                B = 1'b0; // 0 in binary
             end
         endcase
     end
