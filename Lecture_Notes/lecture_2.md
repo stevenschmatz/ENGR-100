@@ -126,8 +126,22 @@ Familiar symbols:
 * `+, -, *` for arithmetic.
 * Numbers are unsigned where it matters.
 
-#### Example
+#### Example – Four 4-bit adder
 
+This would be a lot more complicated in a truth table (it would have 256 rows!)
 
+```verilog
+module add(
+    input wire[3:0] in1,
+    input wire[3:0] in2,
+    output reg[4:0] out);
+    
+    always @* begin
+        out[4:0] = in1[3:0] + in2[3:0];
+    end
+endmodule
+```
+
+Instead, you could list out a bunch of `if`-statements covering all possible cases. That would give the exact same answer. This is just a simplified version.
 
 
