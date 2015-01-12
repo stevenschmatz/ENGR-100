@@ -30,6 +30,14 @@ Hence, for 30 rows, there are around a billion entries.
 
 ## Digital Logic and Computers
 
+Digital circuits work by representing a high voltage as a 1, and a low voltage as a 0.
+
+Digital circuits manipulate bits. We can do this with AND, OR, etc. gates to compute values. Other things you can do with bits are:
+* Group them. Note: A "word" is a group of bits of standard length.
+* Move them. This is done over a wire.
+
+### Buses
+
 A group of wires as input to a digital circuit is known as a *bus*.
 
 In Verilog, a group of 7 wires is denoted as:
