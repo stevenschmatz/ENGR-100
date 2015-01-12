@@ -72,7 +72,7 @@ You need to think of an HDL as hardware, because that's really what it is.
 
 A NOT gate can be done simply in a lot of ways. Here's an example how. Verilog doesn't do really well with creating simple gates, but you can do complex things easy.
 
-```
+```verilog
 module NOT(
     input wire A,
     output reg B);
