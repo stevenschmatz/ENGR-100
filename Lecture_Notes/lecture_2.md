@@ -66,6 +66,6 @@ If the output depends only on the current combination of inputs, it is known as 
 
 ### Verilog
 
-Verilog is a hardware description language (HDL). It looks a lot like C, but it is *not a programming language*.
+Verilog is a hardware description language (HDL) that we use in ENGR 100-250. It looks a lot like C, but it is *not a programming language*. Why not? In an HDL, 
 
 
