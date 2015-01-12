@@ -79,7 +79,7 @@ module NOT(
     input wire A,
     output reg B);
     
-    always @* begin // constantly re-evaluate – combinatorial logic
+    always @* begin // constantly re-evaluate – combinatorial logic follows
         case (A)
             1'b0: begin // begin is same as {
                 B = 1'b1; // 1 in binary
