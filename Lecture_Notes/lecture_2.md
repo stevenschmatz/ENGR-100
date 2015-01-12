@@ -56,7 +56,9 @@ So... *why does this go from big to small*? Because "I like it that way."
 
 ### Schematic representation
 
-We can represent a logical function with input and output as a blob, with inputs as wires pointing in and outputs pointing out.
+We can represent a logical function with input and output as a blob, with inputs as wires pointing in and outputs pointing out. In math, a function with input of \\(A\\) and output of \\(B\\) is represented by:
+
+$$B = f(A)$$
 
 Unlike in a mathematical function, a logical function has a time delay. This is known as a *propagation delay*.
 
