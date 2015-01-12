@@ -29,3 +29,5 @@ $$\text{rows}(n) = 2^n$$
 Hence, for 30 rows, there are around a billion entries.
 
 ## Digital Logic and Computers
+
+A group of wires as input to a digital circuit is known as a *bus*.
