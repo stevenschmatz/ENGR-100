@@ -151,7 +151,36 @@ Instead, you could list out a bunch of `if`-statements covering all possible cas
 
 ## Another Example
 
-This is meant to compute \\(A * B + C *)\\:
+This is meant to compute \\(AB + CD\\):
+
+```verilog
+module mult(
+    input wire [3:0] in1,
+    input wire [3:0] in2,
+    output reg [3:0] out);
+    
+    always @* begin
+        out = in1 * in2;
+    end
+endmodule
+
+module add(
+    input wire [3:0] in1,
+    input wire [3:0] in2,
+    output reg [3:0] out);
+    
+    always @* begin
+        out = in1 + in2;
+    end
+endmodule
+
+module top(
+    input wire [3:0] A,
+    input wire [3:0] B,
+    input wire [3:0] C,
+    input wire [3:0] D,
+    output wire [3:0] result;
+```
 
 
 
