@@ -109,7 +109,7 @@ endmodule
 You can switch all the variables all the time in a loop, but the hardware will only build the final value. We're just implementing a truth table. Verilog code actually gets converted into a truth table (or logic that implements a truth table).
 * **If a value is assigned in an `always` block, it should be a reg. Otherwise, it should be a wire.** It's syntactic annoyance, but it is what it is. There's no deep knowledge behind it.
 * **If it feels verbose, that's fine.** Verilog is suboptimal for simple gates, but greatly simplifies creation of large truth tables (an 8-input module would otherwise have 256 cases)!
-* **Some more symbols**
+##### Some more symbols
 Familiar symbols:
 * `&&` is AND
 * `||` is OR
