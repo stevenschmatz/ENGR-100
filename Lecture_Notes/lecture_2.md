@@ -32,8 +32,15 @@ Hence, for 30 rows, there are around a billion entries.
 
 A group of wires as input to a digital circuit is known as a *bus*.
 
-In Verilog, this is denoted as:
+In Verilog, a group of 7 wires is denoted as:
 
 ```
 A[6,0]
 ```
+
+So... why does this go from big to small? Because "I like it that way."
+
+Endian-ness: Do we go from big to small or small to big?
+* A reference from Gulliver's travels, and it's completely arbitrary.
+
+
