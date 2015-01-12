@@ -64,4 +64,8 @@ Unlike in a mathematical function, a logical function has a time delay. This is 
 
 If the output depends only on the current combination of inputs, it is known as a *combinational logic*.
 
+### Verilog
+
+Verilog is a hardware description language (HDL).
+
 
