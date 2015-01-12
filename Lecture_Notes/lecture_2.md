@@ -105,7 +105,8 @@ endmodule
 
 #### Miscellaneous Verilog things
 
-* Only the value at the end matters. You can switch all the variables all the time in a loop, but the hardware will only build the final value. We're just implementing a truth table. Verilog code actually gets converted into a truth table (or logic that implements a truth table).
+* **Only the value at the end matters.** You can switch all the variables all the time in a loop, but the hardware will only build the final value. We're just implementing a truth table. Verilog code actually gets converted into a truth table (or logic that implements a truth table).
+* **If a value is assigned in an `always` block, it should be a reg. Otherwise, it should be a wire.**
 
 
 
