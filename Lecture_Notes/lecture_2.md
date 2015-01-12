@@ -68,10 +68,17 @@ If the output depends only on the current combination of inputs, it is known as 
 
 Verilog is a hardware description language (HDL) that we use in ENGR 100-250. It looks a lot like C, but it is *not a programming language*. Why not? In an HDL, an OR-gate is OR-ing at all times. That's what it does. Whereas if you have a line of code, `A++`, it is only executed when you tell it to.
 
+Verilog doesn't do really well with creating simple gates, but you can do complex things easy.
+
 You need to think of an HDL as hardware, because that's really what it is.
 
 A NOT gate can be done simply in a lot of ways. Here's an example how.
 
 ```
+module NOT(
+    input wire A,
+    output reg B);
+    
+    always @* begin
 ```
 
