@@ -64,13 +64,13 @@ Unlike in a mathematical function, a logical function has a time delay. This is 
 
 If the output depends only on the current combination of inputs, it is known as a *combinational logic*. With a truth table, you can specify how a combinatoric function works without knowing how. 
 
-### Verilog
+## Verilog
 
 Verilog is a hardware description language (HDL) that we use in ENGR 100-250. It looks a lot like C, but it is *not a programming language*. Why not? In an HDL, an OR-gate is OR-ing at all times. That's what it does. Whereas if you have a line of code, `A++`, it is only executed when you tell it to.
 
 You need to think of an HDL as hardware, because that's really what it is.
 
-#### Gates in Verilog
+### Gates in Verilog
 
 A NOT gate can be done simply in a lot of ways. Here's an example how. Verilog doesn't do really well with creating simple gates, but you can do complex things easily.
 
@@ -93,7 +93,7 @@ module NOT(
 endmodule
 ```
 
-#### Numbers in Verilog
+### Numbers in Verilog
 
 * When describing a number, the first number describes how many bits the number is. 
 * The tick tells that you're done describing that.
@@ -103,7 +103,7 @@ endmodule
     * `d` is decimal
 * The last number is the number, in whatever base system you're using.
 
-#### Miscellaneous Verilog things
+### Miscellaneous Verilog things
 
 ##### Only the value at the end matters.
 You can switch all the variables all the time in a loop, but the hardware will only build the final value. We're just implementing a truth table. Verilog code actually gets converted into a truth table (or logic that implements a truth table).
@@ -125,6 +125,8 @@ Familiar symbols:
 * `^` is XOR.
 * `+, -, *` for arithmetic.
 * Numbers are unsigned where it matters.
+
+#### Example
 
 
 
