@@ -62,4 +62,6 @@ $$B = f(A)$$
 
 Unlike in a mathematical function, a logical function has a time delay. This is known as a *propagation delay*.
 
+If the output depends only on the current combination of inputs, it is known as a *combinational logic*.
+
 
