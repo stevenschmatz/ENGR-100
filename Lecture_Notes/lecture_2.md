@@ -62,7 +62,7 @@ $$B = f(A)$$
 
 Unlike in a mathematical function, a logical function has a time delay. This is known as a *propagation delay*.
 
-If the output depends only on the current combination of inputs, it is known as a *combinational logic*.
+If the output depends only on the current combination of inputs, it is known as a *combinational logic*. With a truth table, you can specify how a combinatoric function works without knowing how. 
 
 ### Verilog
 
