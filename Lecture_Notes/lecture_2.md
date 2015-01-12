@@ -70,7 +70,7 @@ Verilog is a hardware description language (HDL) that we use in ENGR 100-250. It
 
 You need to think of an HDL as hardware, because that's really what it is.
 
-##### Gates in Verilog
+#### Gates in Verilog
 
 A NOT gate can be done simply in a lot of ways. Here's an example how. Verilog doesn't do really well with creating simple gates, but you can do complex things easily.
 
@@ -93,7 +93,7 @@ module NOT(
 endmodule
 ```
 
-##### Numbers in Verilog
+#### Numbers in Verilog
 
 * When describing a number, the first number describes how many bits the number is. 
 * The tick tells that you're done describing that.
@@ -102,5 +102,10 @@ endmodule
     * `h` is hexadecimal
     * `d` is decimal
 * The last number is the number, in whatever base system you're using.
+
+#### Miscellaneous Verilog things
+
+* Only the value at the end matters. You can switch all the variables all the time in a loop, but the hardware will only build the final value. We're just implementing a truth table.
+
 
 
