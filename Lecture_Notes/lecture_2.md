@@ -23,3 +23,5 @@ When a small number of outputs, it is a very powerful and useful tool. However, 
 $$\text{rows}(n) = 2^n$$
 
 Hence, for 30 rows, there are around a billion entries.
+
+## Digital Logic and Computers
