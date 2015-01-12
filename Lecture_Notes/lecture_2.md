@@ -66,6 +66,6 @@ If the output depends only on the current combination of inputs, it is known as 
 
 ### Verilog
 
-Verilog is a hardware description language (HDL) that we use in ENGR 100-250. It looks a lot like C, but it is *not a programming language*. Why not? In an HDL, 
+Verilog is a hardware description language (HDL) that we use in ENGR 100-250. It looks a lot like C, but it is *not a programming language*. Why not? In an HDL, an OR-gate is OR-ing at all times. That's what it does. Whereas if you have a line of code, `A++`, it is only executed when you tell it to.
 
 
