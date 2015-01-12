@@ -77,11 +77,11 @@ module NOT(
     input wire A,
     output reg B);
     
-    always @* begin
+    always @* begin // constantly re-evaluate – combinatorial logic
         case (A)
-            1'b0: begin
+            1'b0: begin // begin is same as {
                 B = 1'b1;
-            end
+            end // and end is same as }
             
             1'b1: begin
                 B = 1'b0;
@@ -90,4 +90,11 @@ module NOT(
     end
 endmodule
 ```
+
+* When describing a number, the first number describes how many bits the number is. 
+* The tick tells that you're done describing that.
+* The letter is the base of the number.
+    * `b` is binary
+    * `h` is hexadecimal
+    * `d` is decimal
 
