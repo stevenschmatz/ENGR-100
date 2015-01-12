@@ -70,6 +70,8 @@ Verilog is a hardware description language (HDL) that we use in ENGR 100-250. It
 
 You need to think of an HDL as hardware, because that's really what it is.
 
+##### Gates in Verilog
+
 A NOT gate can be done simply in a lot of ways. Here's an example how. Verilog doesn't do really well with creating simple gates, but you can do complex things easy.
 
 ```verilog
