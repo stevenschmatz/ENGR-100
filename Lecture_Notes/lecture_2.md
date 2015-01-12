@@ -179,7 +179,17 @@ module top(
     input wire [3:0] B,
     input wire [3:0] C,
     input wire [3:0] D,
-    output wire [3:0] result;
+    output wire [3:0] result);
+    
+    always @* begin
+        wire [3:0] tmp1;
+        wire [3:0] tmp2;
+        
+        mult u1(A, B, tmp1); // module instantiation
+        mult u2(A, B, tmp2); // again
+        add u3(tmp1, tmp2, result);
+    end
+endmodule
 ```
 
 
